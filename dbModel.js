@@ -11,6 +11,4 @@ const tiktokSchema= new mongoose.Schema({
 });
 
 //collection inside the database
-
-
 export default mongoose.model("tiktokVideo",tiktokSchema);

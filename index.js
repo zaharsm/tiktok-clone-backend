@@ -26,7 +26,7 @@ mongoose.connect(connection_url, {useUnifiedTopology: true});
 
 
 // api endpoints
-app.get("/",(req,res) => res.status(200).send("hello world"));
+app.get("/",(req,res) => res.status(200).send("Visit this site instead https://tiktok-clone-29966.web.app/"));
 
 app.get("/v1/posts", (req,res) => res.status(200).send(Data));
 
